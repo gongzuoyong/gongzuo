@@ -1,0 +1,23 @@
+<html>
+
+<head>
+	<script language="javascript" src="__PUBLIC__/Js/jquery-1.4.2.min.js"></script>
+</head>
+
+<body>
+<img src="" id="pre_img" width="100" />
+<form target="img" method="POST" action="__SELF__" enctype="multipart/form-data">
+<input id="pic" type="file" name="img" />
+<input type="submit" value="上传" />
+</form>
+<iframe name="img" style="display:none;"></iframe>
+</body></html>
+<script>
+/* 如果是较新的浏览器可以直接使用以下JS实现
+$("#pic").change(function(){
+	var pic = this.files[0];
+	var xiao = window.URL.createObjectURL(pic);
+	$("#pre_img").attr('src', xiao);
+});
+*/
+</script>

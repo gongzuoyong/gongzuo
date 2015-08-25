@@ -1,0 +1,2163 @@
+[ 2014-09-16T23:02:13+08:00 ] 127.0.0.1 /zj/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001380s ]
+
+[ 2014-09-16T23:02:16+08:00 ] 127.0.0.1 /zj/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.245537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.245759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2014-09-16T23:02:17+08:00 ] 127.0.0.1 /zj/index.php/Admin/Login/codeImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001452s ]
+
+[ 2014-09-16T23:02:31+08:00 ] 127.0.0.1 /zj/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `sh_admin` [ RunTime:0.046041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001847s ]
+
+[ 2014-09-16T23:02:43+08:00 ] 127.0.0.1 /zj/index.php/Admin/Login/codeImg/0.5239896509028438
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001265s ]
+
+[ 2014-09-16T23:02:48+08:00 ] 127.0.0.1 /zj/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001682s ]
+SQL: SHOW COLUMNS FROM `sh_admin` [ RunTime:0.005570s ]
+SQL: SELECT * FROM `sh_admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.077036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003120s ]
+
+[ 2014-09-16T23:03:47+08:00 ] 127.0.0.1 /zj/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+SQL: SHOW COLUMNS FROM `sh_admin` [ RunTime:0.005972s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001895s ]
+
+[ 2014-09-16T23:03:55+08:00 ] 127.0.0.1 /zj/index.php/Admin/Login/codeImg/0.5031984595038106
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001970s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001896s ]
+
+[ 2014-09-16T23:03:58+08:00 ] 127.0.0.1 /zj/index.php/Admin/Login/codeImg/0.4153593200022049
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001245s ]
+
+[ 2014-09-16T23:04:05+08:00 ] 127.0.0.1 /zj/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+SQL: SHOW COLUMNS FROM `sh_admin` [ RunTime:0.005537s ]
+SQL: SELECT * FROM `sh_admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `sh_role` [ RunTime:0.033138s ]
+SQL: SELECT `pri_id_list` FROM `sh_role` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `sh_privilege` [ RunTime:0.084570s ]
+SQL: SELECT * FROM `sh_privilege` WHERE ( parent_id=0 )  [ RunTime:0.052667s ]
+SQL: SELECT * FROM `sh_privilege` WHERE ( parent_id=7 )  [ RunTime:0.000375s ]
+SQL: SELECT * FROM `sh_privilege` WHERE ( parent_id=13 )  [ RunTime:0.000253s ]
+SQL: SELECT * FROM `sh_privilege` WHERE ( parent_id=25 )  [ RunTime:0.000265s ]
+SQL: SELECT * FROM `sh_privilege` WHERE ( parent_id=28 )  [ RunTime:0.000234s ]
+SQL: SELECT * FROM `sh_privilege` WHERE ( parent_id=50 )  [ RunTime:0.000230s ]
+SQL: SELECT * FROM `sh_privilege` WHERE ( parent_id=53 )  [ RunTime:0.000234s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001874s ]
+
+[ 2014-09-16T23:04:06+08:00 ] 127.0.0.1 /zj/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.148632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2014-09-16T23:04:07+08:00 ] 127.0.0.1 /zj/index.php/Admin/Index/left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001156s ]
+
+[ 2014-09-16T23:04:07+08:00 ] 127.0.0.1 /zj/index.php/Admin/Index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002570s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001397s ]
+
+[ 2014-09-16T23:04:07+08:00 ] 127.0.0.1 /zj/index.php/Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001589s ]
+
+[ 2014-09-16T23:04:10+08:00 ] 127.0.0.1 /zj/index.php/Admin/Privilege/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `sh_privilege` [ RunTime:0.005228s ]
+SQL: SELECT * FROM `sh_privilege`  [ RunTime:0.000511s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Undefined variable: page F:\wamp\www\zj\Application\Runtime\Cache\Admin\1c990affb7d51d2df56dce018d5c78a2.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2014-09-16T23:04:12+08:00 ] 127.0.0.1 /zj/index.php/Admin/Role/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `sh_role` [ RunTime:0.005523s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_role` LIMIT 1   [ RunTime:0.000441s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT a.*,GROUP_CONCAT(b.pri_name) pri_name FROM sh_role a LEFT JOIN sh_privilege b ON FIND_IN_SET(b.id,a.pri_id_list)  GROUP BY a.id LIMIT 0,15   [ RunTime:0.051282s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2014-09-16T23:04:14+08:00 ] 127.0.0.1 /zj/index.php/Admin/Admin/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `sh_admin` [ RunTime:0.004692s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_admin` LIMIT 1   [ RunTime:0.000262s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT a.*,b.role_name FROM sh_admin a LEFT JOIN sh_role b ON a.role_id=b.id  ORDER BY a.id ASC LIMIT 0,15   [ RunTime:0.000434s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2014-09-16T23:04:17+08:00 ] 127.0.0.1 /zj/index.php/Goods/Category/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.017520s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.000481s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2014-09-16T23:04:18+08:00 ] 127.0.0.1 /zj/index.php/Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.006851s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.000311s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT a.*,SUM(b.goods_number) gn FROM sh_goods a LEFT JOIN sh_product b ON a.id=b.goods_id  GROUP BY a.id LIMIT 0,15   [ RunTime:0.014415s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2014-09-16T23:04:21+08:00 ] 127.0.0.1 /zj/index.php/Goods/Brand/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.016249s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_brand` LIMIT 1   [ RunTime:0.000307s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT * FROM `sh_brand` LIMIT 0,15   [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2014-09-16T23:04:23+08:00 ] 127.0.0.1 /zj/index.php/Goods/Type/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `sh_type` [ RunTime:0.010845s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_type` LIMIT 1   [ RunTime:0.000275s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT * FROM `sh_type` LIMIT 0,15   [ RunTime:0.000353s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2014-09-16T23:04:38+08:00 ] 127.0.0.1 /zj/index.php/Goods/Category/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.006114s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.000413s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2014-09-16T23:04:40+08:00 ] 127.0.0.1 /zj/index.php/Goods/Brand/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.005214s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_brand` LIMIT 1   [ RunTime:0.000250s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT * FROM `sh_brand` LIMIT 0,15   [ RunTime:0.000284s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2014-09-16T23:04:44+08:00 ] 127.0.0.1 /zj/index.php/Goods/Brand/save/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.005945s ]
+SQL: SELECT * FROM `sh_brand` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2014-09-16T23:06:24+08:00 ] 127.0.0.1 /zj/index.php/Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.006130s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.000263s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT a.*,SUM(b.goods_number) gn FROM sh_goods a LEFT JOIN sh_product b ON a.id=b.goods_id  GROUP BY a.id LIMIT 0,15   [ RunTime:0.007293s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001905s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001339s ]
+
+[ 2014-09-16T23:10:10+08:00 ] 127.0.0.1 /zj/index.php/Goods/Brand/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.005728s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_brand` LIMIT 1   [ RunTime:0.000268s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT * FROM `sh_brand` LIMIT 0,15   [ RunTime:0.000312s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2014-09-16T23:10:13+08:00 ] 127.0.0.1 /zj/index.php/Goods/Brand/save/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.005609s ]
+SQL: SELECT * FROM `sh_brand` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000407s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2014-09-16T23:10:24+08:00 ] 127.0.0.1 /zj/index.php/Goods/Brand/save/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.006456s ]
+NOTIC: [2] unlink(./Uploads/Brand/2014-07-23/53cf071b4dbdb.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Goods\Model\BrandModel.class.php 第 33 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\wamp\www\zj\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+SQL: UPDATE `sh_brand` SET `brand_name`='明基',`brand_url`='dfsafdsaf',`brand_logo`='Brand/2014-09-16/541852e033ba3.jpg' WHERE ( `id` = 6 ) [ RunTime:0.059251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001808s ]
+
+[ 2014-09-16T23:10:25+08:00 ] 127.0.0.1 /zj/index.php/Goods/Brand/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.005809s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_brand` LIMIT 1   [ RunTime:0.000302s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT * FROM `sh_brand` LIMIT 0,15   [ RunTime:0.000483s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2014-09-16T23:10:32+08:00 ] 127.0.0.1 /zj/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001691s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002550s ]
+
+[ 2014-09-16T23:10:32+08:00 ] 127.0.0.1 /zj/index.php/Admin/Index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2014-09-16T23:10:32+08:00 ] 127.0.0.1 /zj/index.php/Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001701s ]
+
+[ 2014-09-16T23:10:32+08:00 ] 127.0.0.1 /zj/index.php/Admin/Index/left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000449s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001322s ]
+
+[ 2014-09-16T23:10:40+08:00 ] 127.0.0.1 /zj/index.php/Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.006455s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.000402s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT a.*,SUM(b.goods_number) gn FROM sh_goods a LEFT JOIN sh_product b ON a.id=b.goods_id  GROUP BY a.id LIMIT 0,15   [ RunTime:0.005971s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2014-09-16T23:10:42+08:00 ] 127.0.0.1 /zj/index.php/Goods/Brand/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.005665s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_brand` LIMIT 1   [ RunTime:0.000354s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT * FROM `sh_brand` LIMIT 0,15   [ RunTime:0.000372s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2014-09-16T23:14:55+08:00 ] 127.0.0.1 /zj/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2014-09-16T23:14:55+08:00 ] 127.0.0.1 /zj/index.php/Admin/Index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2014-09-16T23:14:55+08:00 ] 127.0.0.1 /zj/index.php/Admin/Index/left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001468s ]
+
+[ 2014-09-16T23:14:55+08:00 ] 127.0.0.1 /zj/index.php/Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001962s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002007s ]
+
+[ 2014-09-16T23:14:57+08:00 ] 127.0.0.1 /zj/index.php/Goods/Brand/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.006959s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_brand` LIMIT 1   [ RunTime:0.000343s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT * FROM `sh_brand` LIMIT 0,15   [ RunTime:0.000454s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000427s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2014-09-16T23:15:00+08:00 ] 127.0.0.1 /zj/index.php/Goods/Brand/save/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.008596s ]
+SQL: SELECT * FROM `sh_brand` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000436s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2014-09-16T23:15:05+08:00 ] 127.0.0.1 /zj/index.php/Goods/Brand/save/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.006115s ]
+NOTIC: [2] unlink(./Uploads/Brand/2014-07-21/53ccb7995bd16.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Goods\Model\BrandModel.class.php 第 33 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\wamp\www\zj\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+SQL: UPDATE `sh_brand` SET `brand_name`='dell',`brand_url`='http://www.dell.com',`brand_logo`='Brand/2014-09-16/541853f99a801.jpg' WHERE ( `id` = 5 ) [ RunTime:0.000581s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001852s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004212s ]
+
+[ 2014-09-16T23:15:07+08:00 ] 127.0.0.1 /zj/index.php/Goods/Brand/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.009740s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_brand` LIMIT 1   [ RunTime:0.000388s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT * FROM `sh_brand` LIMIT 0,15   [ RunTime:0.000447s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2014-09-16T23:15:10+08:00 ] 127.0.0.1 /zj/index.php/Goods/Type/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+SQL: SHOW COLUMNS FROM `sh_type` [ RunTime:0.007245s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_type` LIMIT 1   [ RunTime:0.000270s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT * FROM `sh_type` LIMIT 0,15   [ RunTime:0.000290s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2014-09-16T23:15:12+08:00 ] 127.0.0.1 /zj/index.php/Goods/Brand/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.007160s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_brand` LIMIT 1   [ RunTime:0.000254s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT * FROM `sh_brand` LIMIT 0,15   [ RunTime:0.000313s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001822s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001241s ]
+
+[ 2014-09-16T23:15:14+08:00 ] 127.0.0.1 /zj/index.php/Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.007504s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.000260s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT a.*,SUM(b.goods_number) gn FROM sh_goods a LEFT JOIN sh_product b ON a.id=b.goods_id  GROUP BY a.id LIMIT 0,15   [ RunTime:0.007745s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001824s ]
+
+[ 2014-09-16T23:15:20+08:00 ] 127.0.0.1 /zj/index.php/Goods/Goods/save/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.008683s ]
+SQL: SELECT * FROM `sh_goods` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.006316s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.005725s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.216207s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `sh_type` [ RunTime:0.015745s ]
+SQL: SELECT * FROM `sh_type`  [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.039102s ]
+SQL: SELECT * FROM `sh_member_price` WHERE ( goods_id=6 )  [ RunTime:0.014343s ]
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.064642s ]
+SQL: SELECT * FROM `sh_goods_pic` WHERE ( goods_id=6 )  [ RunTime:0.001142s ]
+SQL: SHOW COLUMNS FROM `sh_goods_attr` [ RunTime:0.015022s ]
+SQL: SELECT * FROM `sh_goods_attr` WHERE ( goods_id=6 )  [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `sh_attribute` [ RunTime:0.060152s ]
+SQL: SELECT * FROM `sh_attribute` WHERE ( type_id=5 )  [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `sh_recommend` [ RunTime:0.015916s ]
+SQL: SELECT * FROM `sh_recommend` WHERE ( rec_type='商品' )  [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `sh_recommend_item` [ RunTime:0.029905s ]
+SQL: SELECT GROUP_CONCAT(a.rec_id) rec_id FROM sh_recommend_item a LEFT JOIN sh_recommend b ON a.rec_id=b.id  WHERE ( a.value_id=6 AND b.rec_type="商品" )  [ RunTime:0.026265s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000455s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001788s ]
+
+[ 2014-09-16T23:15:27+08:00 ] 127.0.0.1 /zj/index.php/Goods/Goods/save/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001433s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.006887s ]
+NOTIC: [2] unlink(./Uploads/Goods/2014-07-26/53d359b2c369b.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Goods\Model\GoodsModel.class.php 第 275 行.
+NOTIC: [2] unlink(./Uploads/Goods/2014-07-26/sm_53d359b2c369b.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Goods\Model\GoodsModel.class.php 第 276 行.
+NOTIC: [2] unlink(./Uploads/Goods/2014-07-26/mid_53d359b2c369b.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Goods\Model\GoodsModel.class.php 第 277 行.
+NOTIC: [2] unlink(./Uploads/Goods/2014-07-26/big_53d359b2c369b.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Goods\Model\GoodsModel.class.php 第 278 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\wamp\www\zj\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.006223s ]
+SQL: DELETE FROM `sh_member_price` WHERE ( goods_id=6 ) [ RunTime:0.059280s ]
+SQL: INSERT INTO `sh_member_price` (`price`,`level_id`,`goods_id`) VALUES ('321.00',2,6) [ RunTime:0.012145s ]
+SQL: INSERT INTO `sh_member_price` (`price`,`level_id`,`goods_id`) VALUES ('312.00',4,6) [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `sh_goods_attr` [ RunTime:0.006045s ]
+SQL: UPDATE `sh_goods_attr` SET `attr_value`='请选择',`attr_price`='0.00' WHERE ( id=1 ) [ RunTime:0.000412s ]
+SQL: UPDATE `sh_goods_attr` SET `attr_value`='白色',`attr_price`='0.00' WHERE ( id=2 ) [ RunTime:0.000214s ]
+SQL: UPDATE `sh_goods_attr` SET `attr_value`='黑色',`attr_price`='0.00' WHERE ( id=3 ) [ RunTime:0.000195s ]
+SQL: UPDATE `sh_goods_attr` SET `attr_value`='蓝色',`attr_price`='123.00' WHERE ( id=6 ) [ RunTime:0.000189s ]
+SQL: UPDATE `sh_goods_attr` SET `attr_value`='20141212',`attr_price`='321.00' WHERE ( id=4 ) [ RunTime:0.000256s ]
+SQL: UPDATE `sh_goods_attr` SET `attr_value`='16G',`attr_price`='0.00' WHERE ( id=5 ) [ RunTime:0.000197s ]
+SQL: UPDATE `sh_goods_attr` SET `attr_value`='4G',`attr_price`='0.00' WHERE ( id=14 ) [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `sh_recommend_item` [ RunTime:0.005663s ]
+SQL: DELETE FROM `sh_recommend_item` WHERE ( value_id=6 AND rec_id IN(SELECT id FROM sh_recommend WHERE rec_type="商品") ) [ RunTime:0.003564s ]
+SQL: INSERT INTO `sh_recommend_item` (`rec_id`,`value_id`) VALUES (5,6) [ RunTime:0.000213s ]
+SQL: INSERT INTO `sh_recommend_item` (`rec_id`,`value_id`) VALUES (7,6) [ RunTime:0.000181s ]
+SQL: UPDATE `sh_goods` SET `goods_name`='ThinkPad',`cat_id`=12,`brand_id`=6,`market_price`='2344.00',`shop_price`='2222.00',`is_on_sale`='是',`goods_weight`='0.00',`weight_unit`='克',`goods_desc`='&lt;p&gt;商品的质朴很好。！&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://admin.shop.com/Public/ueditor/php/upload1//20140123/1390442614330225.jpg&quot;/&gt;&lt;/p&gt;',`logo`='Goods/2014-09-16/5418540f40c04.jpg',`sm_logo`='Goods/2014-09-16/sm_5418540f40c04.jpg',`mid_logo`='Goods/2014-09-16/mid_5418540f40c04.jpg',`big_logo`='Goods/2014-09-16/big_5418540f40c04.jpg' WHERE ( `id` = 6 ) [ RunTime:0.000363s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001825s ]
+
+[ 2014-09-16T23:15:28+08:00 ] 127.0.0.1 /zj/index.php/Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001946s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.007087s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.000276s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT a.*,SUM(b.goods_number) gn FROM sh_goods a LEFT JOIN sh_product b ON a.id=b.goods_id  GROUP BY a.id LIMIT 0,15   [ RunTime:0.007214s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001147s ]
+
+[ 2014-09-16T23:15:31+08:00 ] 127.0.0.1 /zj/index.php/Goods/Goods/save/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.006800s ]
+SQL: SELECT * FROM `sh_goods` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.006984s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.007131s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.007035s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `sh_type` [ RunTime:0.007359s ]
+SQL: SELECT * FROM `sh_type`  [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.006551s ]
+SQL: SELECT * FROM `sh_member_price` WHERE ( goods_id=7 )  [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.007537s ]
+SQL: SELECT * FROM `sh_goods_pic` WHERE ( goods_id=7 )  [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `sh_goods_attr` [ RunTime:0.006789s ]
+SQL: SELECT * FROM `sh_goods_attr` WHERE ( goods_id=7 )  [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `sh_attribute` [ RunTime:0.006283s ]
+SQL: SELECT * FROM `sh_attribute` WHERE ( type_id=5 )  [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `sh_recommend` [ RunTime:0.007747s ]
+SQL: SELECT * FROM `sh_recommend` WHERE ( rec_type='商品' )  [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `sh_recommend_item` [ RunTime:0.006637s ]
+SQL: SELECT GROUP_CONCAT(a.rec_id) rec_id FROM sh_recommend_item a LEFT JOIN sh_recommend b ON a.rec_id=b.id  WHERE ( a.value_id=7 AND b.rec_type="商品" )  [ RunTime:0.000641s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 127 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 127 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 127 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 127 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2014-09-16T23:15:37+08:00 ] 127.0.0.1 /zj/index.php/Goods/Goods/save/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001852s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.007767s ]
+NOTIC: [2] unlink(./Uploads/Goods/2014-07-26/53d35aeae1e79.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Goods\Model\GoodsModel.class.php 第 275 行.
+NOTIC: [2] unlink(./Uploads/Goods/2014-07-26/sm_53d35aeae1e79.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Goods\Model\GoodsModel.class.php 第 276 行.
+NOTIC: [2] unlink(./Uploads/Goods/2014-07-26/mid_53d35aeae1e79.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Goods\Model\GoodsModel.class.php 第 277 行.
+NOTIC: [2] unlink(./Uploads/Goods/2014-07-26/big_53d35aeae1e79.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Goods\Model\GoodsModel.class.php 第 278 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\wamp\www\zj\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.005772s ]
+SQL: DELETE FROM `sh_member_price` WHERE ( goods_id=7 ) [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `sh_goods_attr` [ RunTime:0.005516s ]
+SQL: UPDATE `sh_goods_attr` SET `attr_value`='请选择',`attr_price`='0.00' WHERE ( id=7 ) [ RunTime:0.002425s ]
+SQL: UPDATE `sh_goods_attr` SET `attr_value`='请选择',`attr_price`='0.00' WHERE ( id=8 ) [ RunTime:0.000275s ]
+SQL: UPDATE `sh_goods_attr` SET `attr_value`='请选择',`attr_price`='0.00' WHERE ( id=9 ) [ RunTime:0.000226s ]
+SQL: UPDATE `sh_goods_attr` SET `attr_value`='',`attr_price`='0.00' WHERE ( id=10 ) [ RunTime:0.000226s ]
+SQL: UPDATE `sh_goods_attr` SET `attr_value`='请选择',`attr_price`='0.00' WHERE ( id=11 ) [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `sh_recommend_item` [ RunTime:0.005521s ]
+SQL: DELETE FROM `sh_recommend_item` WHERE ( value_id=7 AND rec_id IN(SELECT id FROM sh_recommend WHERE rec_type="商品") ) [ RunTime:0.000418s ]
+SQL: INSERT INTO `sh_recommend_item` (`rec_id`,`value_id`) VALUES (7,7) [ RunTime:0.000238s ]
+SQL: UPDATE `sh_goods` SET `goods_name`='abc',`cat_id`=23,`brand_id`=6,`market_price`='4312.00',`shop_price`='4005.00',`is_on_sale`='是',`goods_weight`='0.00',`weight_unit`='克',`goods_desc`='',`logo`='Goods/2014-09-16/5418541900563.jpg',`sm_logo`='Goods/2014-09-16/sm_5418541900563.jpg',`mid_logo`='Goods/2014-09-16/mid_5418541900563.jpg',`big_logo`='Goods/2014-09-16/big_5418541900563.jpg' WHERE ( `id` = 7 ) [ RunTime:0.000332s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001820s ]
+
+[ 2014-09-16T23:15:38+08:00 ] 127.0.0.1 /zj/index.php/Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002120s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.009013s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.000344s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT a.*,SUM(b.goods_number) gn FROM sh_goods a LEFT JOIN sh_product b ON a.id=b.goods_id  GROUP BY a.id LIMIT 0,15   [ RunTime:0.007589s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2014-09-16T23:15:45+08:00 ] 127.0.0.1 /zj/index.php/Goods/Goods/save/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.006531s ]
+SQL: SELECT * FROM `sh_goods` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.007793s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.006785s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.006443s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `sh_type` [ RunTime:0.006532s ]
+SQL: SELECT * FROM `sh_type`  [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.006353s ]
+SQL: SELECT * FROM `sh_member_price` WHERE ( goods_id=8 )  [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.006480s ]
+SQL: SELECT * FROM `sh_goods_pic` WHERE ( goods_id=8 )  [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `sh_goods_attr` [ RunTime:0.007057s ]
+SQL: SELECT * FROM `sh_goods_attr` WHERE ( goods_id=8 )  [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `sh_attribute` [ RunTime:0.006649s ]
+SQL: SELECT * FROM `sh_attribute` WHERE ( type_id=6 )  [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `sh_recommend` [ RunTime:0.007314s ]
+SQL: SELECT * FROM `sh_recommend` WHERE ( rec_type='商品' )  [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `sh_recommend_item` [ RunTime:0.005952s ]
+SQL: SELECT GROUP_CONCAT(a.rec_id) rec_id FROM sh_recommend_item a LEFT JOIN sh_recommend b ON a.rec_id=b.id  WHERE ( a.value_id=8 AND b.rec_type="商品" )  [ RunTime:0.000597s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000427s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 127 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 127 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 127 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001226s ]
+
+[ 2014-09-16T23:15:54+08:00 ] 127.0.0.1 /zj/index.php/Goods/Goods/save/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.006936s ]
+NOTIC: [2] unlink(./Uploads/Goods/2014-07-26/53d35ae4a9f1b.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Goods\Model\GoodsModel.class.php 第 275 行.
+NOTIC: [2] unlink(./Uploads/Goods/2014-07-26/sm_53d35ae4a9f1b.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Goods\Model\GoodsModel.class.php 第 276 行.
+NOTIC: [2] unlink(./Uploads/Goods/2014-07-26/mid_53d35ae4a9f1b.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Goods\Model\GoodsModel.class.php 第 277 行.
+NOTIC: [2] unlink(./Uploads/Goods/2014-07-26/big_53d35ae4a9f1b.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Goods\Model\GoodsModel.class.php 第 278 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\wamp\www\zj\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.007188s ]
+SQL: DELETE FROM `sh_member_price` WHERE ( goods_id=8 ) [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `sh_goods_attr` [ RunTime:0.006881s ]
+SQL: UPDATE `sh_goods_attr` SET `attr_value`='',`attr_price`='0.00' WHERE ( id=12 ) [ RunTime:0.000313s ]
+SQL: UPDATE `sh_goods_attr` SET `attr_value`='',`attr_price`='0.00' WHERE ( id=13 ) [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `sh_recommend_item` [ RunTime:0.008044s ]
+SQL: DELETE FROM `sh_recommend_item` WHERE ( value_id=8 AND rec_id IN(SELECT id FROM sh_recommend WHERE rec_type="商品") ) [ RunTime:0.000466s ]
+SQL: INSERT INTO `sh_recommend_item` (`rec_id`,`value_id`) VALUES (7,8) [ RunTime:0.000240s ]
+SQL: UPDATE `sh_goods` SET `goods_name`='ThinkPad',`cat_id`=19,`brand_id`=5,`market_price`='5432.00',`shop_price`='5333.00',`is_on_sale`='是',`goods_weight`='0.00',`weight_unit`='克',`goods_desc`='',`logo`='Goods/2014-09-16/5418542a6dd23.jpg',`sm_logo`='Goods/2014-09-16/sm_5418542a6dd23.jpg',`mid_logo`='Goods/2014-09-16/mid_5418542a6dd23.jpg',`big_logo`='Goods/2014-09-16/big_5418542a6dd23.jpg' WHERE ( `id` = 8 ) [ RunTime:0.000320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001396s ]
+
+[ 2014-09-16T23:15:55+08:00 ] 127.0.0.1 /zj/index.php/Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.007963s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.000256s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT a.*,SUM(b.goods_number) gn FROM sh_goods a LEFT JOIN sh_product b ON a.id=b.goods_id  GROUP BY a.id LIMIT 0,15   [ RunTime:0.008042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2014-09-16T23:15:59+08:00 ] 127.0.0.1 /zj/index.php/Goods/Goods/save/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.008620s ]
+SQL: SELECT * FROM `sh_goods` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.006972s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.008907s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.007400s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `sh_type` [ RunTime:0.006966s ]
+SQL: SELECT * FROM `sh_type`  [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.007610s ]
+SQL: SELECT * FROM `sh_member_price` WHERE ( goods_id=9 )  [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.007745s ]
+SQL: SELECT * FROM `sh_goods_pic` WHERE ( goods_id=9 )  [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `sh_goods_attr` [ RunTime:0.007696s ]
+SQL: SELECT * FROM `sh_goods_attr` WHERE ( goods_id=9 )  [ RunTime:0.000573s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Goods\Controller\GoodsController.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `sh_recommend` [ RunTime:0.006002s ]
+SQL: SELECT * FROM `sh_recommend` WHERE ( rec_type='商品' )  [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `sh_recommend_item` [ RunTime:0.007049s ]
+SQL: SELECT GROUP_CONCAT(a.rec_id) rec_id FROM sh_recommend_item a LEFT JOIN sh_recommend b ON a.rec_id=b.id  WHERE ( a.value_id=9 AND b.rec_type="商品" )  [ RunTime:0.000733s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000287s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 127 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 127 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 127 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 127 行.
+NOTIC: [8] Undefined variable: attrData F:\wamp\www\zj\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 146 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2014-09-16T23:16:06+08:00 ] 127.0.0.1 /zj/index.php/Goods/Goods/save/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.008866s ]
+NOTIC: [2] unlink(./Uploads/Goods/2014-08-03/53ddddb85e4a4.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Goods\Model\GoodsModel.class.php 第 275 行.
+NOTIC: [2] unlink(./Uploads/Goods/2014-08-03/sm_53ddddb85e4a4.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Goods\Model\GoodsModel.class.php 第 276 行.
+NOTIC: [2] unlink(./Uploads/Goods/2014-08-03/mid_53ddddb85e4a4.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Goods\Model\GoodsModel.class.php 第 277 行.
+NOTIC: [2] unlink(./Uploads/Goods/2014-08-03/big_53ddddb85e4a4.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Goods\Model\GoodsModel.class.php 第 278 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\wamp\www\zj\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.007235s ]
+SQL: DELETE FROM `sh_member_price` WHERE ( goods_id=9 ) [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `sh_recommend_item` [ RunTime:0.007227s ]
+SQL: DELETE FROM `sh_recommend_item` WHERE ( value_id=9 AND rec_id IN(SELECT id FROM sh_recommend WHERE rec_type="商品") ) [ RunTime:0.000565s ]
+SQL: INSERT INTO `sh_recommend_item` (`rec_id`,`value_id`) VALUES (1,9) [ RunTime:0.000232s ]
+SQL: INSERT INTO `sh_recommend_item` (`rec_id`,`value_id`) VALUES (2,9) [ RunTime:0.000208s ]
+SQL: INSERT INTO `sh_recommend_item` (`rec_id`,`value_id`) VALUES (7,9) [ RunTime:0.000217s ]
+SQL: UPDATE `sh_goods` SET `goods_name`='疯狂的商品',`cat_id`=14,`brand_id`=5,`market_price`='3233.00',`shop_price`='3222.00',`is_on_sale`='是',`goods_weight`='323.00',`weight_unit`='克',`goods_desc`='',`type_id`=0,`logo`='Goods/2014-09-16/54185435d7e9f.jpg',`sm_logo`='Goods/2014-09-16/sm_54185435d7e9f.jpg',`mid_logo`='Goods/2014-09-16/mid_54185435d7e9f.jpg',`big_logo`='Goods/2014-09-16/big_54185435d7e9f.jpg' WHERE ( `id` = 9 ) [ RunTime:0.000344s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001037s ]
+
+[ 2014-09-16T23:16:07+08:00 ] 127.0.0.1 /zj/index.php/Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.006338s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.000254s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT a.*,SUM(b.goods_number) gn FROM sh_goods a LEFT JOIN sh_product b ON a.id=b.goods_id  GROUP BY a.id LIMIT 0,15   [ RunTime:0.006676s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2014-09-16T23:16:09+08:00 ] 127.0.0.1 /zj/index.php/Goods/Goods/save/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.009053s ]
+SQL: SELECT * FROM `sh_goods` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.008963s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.008949s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.006701s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `sh_type` [ RunTime:0.005836s ]
+SQL: SELECT * FROM `sh_type`  [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.007460s ]
+SQL: SELECT * FROM `sh_member_price` WHERE ( goods_id=10 )  [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.008012s ]
+SQL: SELECT * FROM `sh_goods_pic` WHERE ( goods_id=10 )  [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `sh_goods_attr` [ RunTime:0.006748s ]
+SQL: SELECT * FROM `sh_goods_attr` WHERE ( goods_id=10 )  [ RunTime:0.000387s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Goods\Controller\GoodsController.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `sh_recommend` [ RunTime:0.006801s ]
+SQL: SELECT * FROM `sh_recommend` WHERE ( rec_type='商品' )  [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `sh_recommend_item` [ RunTime:0.006995s ]
+SQL: SELECT GROUP_CONCAT(a.rec_id) rec_id FROM sh_recommend_item a LEFT JOIN sh_recommend b ON a.rec_id=b.id  WHERE ( a.value_id=10 AND b.rec_type="商品" )  [ RunTime:0.000719s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000368s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000598s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 127 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 127 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 127 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 127 行.
+NOTIC: [8] Undefined variable: attrData F:\wamp\www\zj\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 146 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2014-09-16T23:16:16+08:00 ] 127.0.0.1 /zj/index.php/Goods/Goods/save/id/10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.008394s ]
+NOTIC: [2] unlink(./Uploads/Goods/2014-08-03/53ddddbf00945.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Goods\Model\GoodsModel.class.php 第 275 行.
+NOTIC: [2] unlink(./Uploads/Goods/2014-08-03/sm_53ddddbf00945.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Goods\Model\GoodsModel.class.php 第 276 行.
+NOTIC: [2] unlink(./Uploads/Goods/2014-08-03/mid_53ddddbf00945.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Goods\Model\GoodsModel.class.php 第 277 行.
+NOTIC: [2] unlink(./Uploads/Goods/2014-08-03/big_53ddddbf00945.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Goods\Model\GoodsModel.class.php 第 278 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\wamp\www\zj\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.008612s ]
+SQL: DELETE FROM `sh_member_price` WHERE ( goods_id=10 ) [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `sh_recommend_item` [ RunTime:0.007630s ]
+SQL: DELETE FROM `sh_recommend_item` WHERE ( value_id=10 AND rec_id IN(SELECT id FROM sh_recommend WHERE rec_type="商品") ) [ RunTime:0.000487s ]
+SQL: INSERT INTO `sh_recommend_item` (`rec_id`,`value_id`) VALUES (7,10) [ RunTime:0.000259s ]
+SQL: UPDATE `sh_goods` SET `goods_name`='ThinkPad',`cat_id`=24,`brand_id`=0,`market_price`='4323.00',`shop_price`='42222.00',`is_on_sale`='是',`goods_weight`='0.00',`weight_unit`='克',`goods_desc`='',`type_id`=0,`logo`='Goods/2014-09-16/541854408f5a8.jpg',`sm_logo`='Goods/2014-09-16/sm_541854408f5a8.jpg',`mid_logo`='Goods/2014-09-16/mid_541854408f5a8.jpg',`big_logo`='Goods/2014-09-16/big_541854408f5a8.jpg' WHERE ( `id` = 10 ) [ RunTime:0.000370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001260s ]
+
+[ 2014-09-16T23:16:17+08:00 ] 127.0.0.1 /zj/index.php/Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.007910s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.000265s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT a.*,SUM(b.goods_number) gn FROM sh_goods a LEFT JOIN sh_product b ON a.id=b.goods_id  GROUP BY a.id LIMIT 0,15   [ RunTime:0.006989s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001178s ]
+
+[ 2014-09-16T23:16:19+08:00 ] 127.0.0.1 /zj/index.php/Goods/Category/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.006103s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001416s ]
+
+[ 2014-09-16T23:16:21+08:00 ] 127.0.0.1 /zj/index.php/Gii/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2014-09-16T23:16:23+08:00 ] 127.0.0.1 /zj/index.php/Gii/ShopConfig/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `sh_shop_config` [ RunTime:0.081399s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_shop_config` LIMIT 1   [ RunTime:0.000298s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT * FROM `sh_shop_config` LIMIT 0,15   [ RunTime:0.000449s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2014-09-16T23:16:25+08:00 ] 127.0.0.1 /zj/index.php/Gii/ShopConfig/config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `sh_shop_config` [ RunTime:0.006013s ]
+SQL: SELECT * FROM `sh_shop_config`  [ RunTime:0.000429s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2014-09-16T23:16:28+08:00 ] 127.0.0.1 /zj/index.php/Gii/Recommend/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `sh_recommend` [ RunTime:0.005760s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_recommend` LIMIT 1   [ RunTime:0.000288s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT * FROM `sh_recommend` LIMIT 0,15   [ RunTime:0.000386s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2014-09-16T23:16:29+08:00 ] 127.0.0.1 /zj/index.php/Member/Member/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+SQL: SHOW COLUMNS FROM `sh_member` [ RunTime:0.057804s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_member` LIMIT 1   [ RunTime:0.000313s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT * FROM `sh_member` LIMIT 0,15   [ RunTime:0.000479s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001029s ]
+
+[ 2014-09-16T23:16:30+08:00 ] 127.0.0.1 /zj/index.php/Member/MemberLevel/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.007591s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_member_level` LIMIT 1   [ RunTime:0.000394s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT * FROM `sh_member_level` LIMIT 0,15   [ RunTime:0.000391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001147s ]
+
+[ 2014-09-16T23:16:32+08:00 ] 127.0.0.1 /zj/index.php/Article/ArticleCat/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `sh_article_cat` [ RunTime:0.064654s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_article_cat` LIMIT 1   [ RunTime:0.000273s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT a.*,COUNT(b.id) article_count FROM sh_article_cat a LEFT JOIN sh_article b ON a.id=b.cat_id  GROUP BY a.id ORDER BY article_count DESC LIMIT 0,15   [ RunTime:0.018794s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2014-09-16T23:16:34+08:00 ] 127.0.0.1 /zj/index.php/Article/Article/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SHOW COLUMNS FROM `sh_article` [ RunTime:0.007688s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_article` LIMIT 1   [ RunTime:0.000422s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT a.*,b.cat_name FROM sh_article a LEFT JOIN sh_article_cat b ON a.cat_id=b.id  LIMIT 0,15   [ RunTime:0.000448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2014-09-16T23:16:35+08:00 ] 127.0.0.1 /zj/index.php/Ad/AdPos/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+SQL: SHOW COLUMNS FROM `sh_ad_pos` [ RunTime:0.077360s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_ad_pos` LIMIT 1   [ RunTime:0.000269s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT * FROM `sh_ad_pos` LIMIT 0,15   [ RunTime:0.000362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001316s ]
+
+[ 2014-09-16T23:16:37+08:00 ] 127.0.0.1 /zj/index.php/Ad/Ad/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `sh_ad` [ RunTime:0.092496s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_ad` LIMIT 1   [ RunTime:0.000289s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT * FROM `sh_ad` LIMIT 0,15   [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2014-09-16T23:16:47+08:00 ] 127.0.0.1 /zj/index.php/Ad/Ad/save/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `sh_ad` [ RunTime:0.006424s ]
+SQL: SELECT * FROM `sh_ad` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `sh_ad_pos` [ RunTime:0.006164s ]
+SQL: SELECT * FROM `sh_ad_pos`  [ RunTime:0.000392s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+NOTIC: [8] Undefined variable: aiData F:\wamp\www\zj\Application\Runtime\Cache\Ad\3ed9dd83a395ca2244327a42c420b839.php 第 75 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Runtime\Cache\Ad\3ed9dd83a395ca2244327a42c420b839.php 第 75 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001398s ]
+
+[ 2014-09-16T23:17:04+08:00 ] 127.0.0.1 /zj/index.php/Ad/Ad/save/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `sh_ad` [ RunTime:0.006772s ]
+NOTIC: [2] unlink(./Uploads/Ad/2014-07-31/53d9e18523ad9.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Ad\Model\AdModel.class.php 第 94 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\wamp\www\zj\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+NOTIC: [8] Undefined index: ad_type F:\wamp\www\zj\Application\Ad\Model\AdModel.class.php 第 87 行.
+SQL: UPDATE `sh_ad` SET `is_on`='否' WHERE ( pos_id=2 AND id <> 7 ) [ RunTime:0.000571s ]
+NOTIC: [8] Undefined index: ad_type F:\wamp\www\zj\Application\Ad\Model\AdModel.class.php 第 113 行.
+SQL: UPDATE `sh_ad` SET `ad_type`='图片',`pos_id`=2,`ad_name`='图片',`is_on`='是',`link`='http://www.itcast.cn',`img_url`='Ad/2014-09-16/5418547021ada.jpg' WHERE ( `id` = 7 ) [ RunTime:0.000412s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001015s ]
+
+[ 2014-09-16T23:17:05+08:00 ] 127.0.0.1 /zj/index.php/Ad/Ad/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `sh_ad` [ RunTime:0.006045s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_ad` LIMIT 1   [ RunTime:0.000262s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT * FROM `sh_ad` LIMIT 0,15   [ RunTime:0.000335s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2014-09-16T23:17:08+08:00 ] 127.0.0.1 /zj/index.php/Ad/Ad/save/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `sh_ad` [ RunTime:0.008228s ]
+SQL: SELECT * FROM `sh_ad` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `sh_ad_pos` [ RunTime:0.006927s ]
+SQL: SELECT * FROM `sh_ad_pos`  [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `sh_ad_info` [ RunTime:0.093443s ]
+SQL: SELECT * FROM `sh_ad_info` WHERE ( ad_id=8 )  [ RunTime:0.000563s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2014-09-16T23:17:12+08:00 ] 127.0.0.1 /zj/index.php/Ad/AdPos/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SHOW COLUMNS FROM `sh_ad_pos` [ RunTime:0.006002s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_ad_pos` LIMIT 1   [ RunTime:0.000322s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT * FROM `sh_ad_pos` LIMIT 0,15   [ RunTime:0.000368s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001004s ]
+
+[ 2014-09-16T23:17:15+08:00 ] 127.0.0.1 /zj/index.php/Ad/Ad/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `sh_ad` [ RunTime:0.007963s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_ad` LIMIT 1   [ RunTime:0.000261s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT * FROM `sh_ad` LIMIT 0,15   [ RunTime:0.000309s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2014-09-16T23:17:21+08:00 ] 127.0.0.1 /zj/index.php/Ad/Ad/save/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SHOW COLUMNS FROM `sh_ad` [ RunTime:0.006316s ]
+SQL: SELECT * FROM `sh_ad` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `sh_ad_pos` [ RunTime:0.007196s ]
+SQL: SELECT * FROM `sh_ad_pos`  [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `sh_ad_info` [ RunTime:0.006404s ]
+SQL: SELECT * FROM `sh_ad_info` WHERE ( ad_id=6 )  [ RunTime:0.000507s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001099s ]
+
+[ 2014-09-16T23:17:42+08:00 ] 127.0.0.1 /zj/index.php/Ad/Ad/save/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+SQL: SHOW COLUMNS FROM `sh_ad` [ RunTime:0.006621s ]
+NOTIC: [8] Undefined index: ad_type F:\wamp\www\zj\Application\Ad\Model\AdModel.class.php 第 87 行.
+SQL: UPDATE `sh_ad` SET `is_on`='否' WHERE ( pos_id=1 AND id <> 6 ) [ RunTime:0.000344s ]
+NOTIC: [8] Undefined index: ad_type F:\wamp\www\zj\Application\Ad\Model\AdModel.class.php 第 113 行.
+SQL: UPDATE `sh_ad` SET `ad_type`='动画',`pos_id`=1,`ad_name`='图片',`is_on`='是',`link`='' WHERE ( `id` = 6 ) [ RunTime:0.000234s ]
+NOTIC: [8] Undefined index: cartoon_img F:\wamp\www\zj\Application\Ad\Model\AdModel.class.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Ad\Model\AdModel.class.php 第 78 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\wamp\www\zj\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\wamp\www\zj\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\wamp\www\zj\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `sh_ad_info` [ RunTime:0.007053s ]
+SQL: SELECT * FROM `sh_ad_info` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.000410s ]
+NOTIC: [2] unlink(./Uploads/Ad/2014-07-31/53d9e171db9d1.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Ad\Model\AdModel.class.php 第 160 行.
+SQL: UPDATE `sh_ad_info` SET `link`='http://www.baidu.com',`img_url`='Ad/2014-09-16/5418549652ddb.jpg' WHERE ( id=10 ) [ RunTime:0.000464s ]
+SQL: SELECT * FROM `sh_ad_info` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000269s ]
+NOTIC: [2] unlink(./Uploads/Ad/2014-07-31/53d9e171da19e.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Ad\Model\AdModel.class.php 第 160 行.
+SQL: UPDATE `sh_ad_info` SET `link`='http://www.itcast.cn',`img_url`='Ad/2014-09-16/5418549653a5c.jpg' WHERE ( id=9 ) [ RunTime:0.000268s ]
+SQL: SELECT * FROM `sh_ad_info` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000267s ]
+NOTIC: [2] unlink(./Uploads/Ad/2014-07-31/53d9e171d88ef.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory F:\wamp\www\zj\Application\Ad\Model\AdModel.class.php 第 160 行.
+SQL: UPDATE `sh_ad_info` SET `link`='http://www.itcast.cn',`img_url`='Ad/2014-09-16/5418549654ddd.jpg' WHERE ( id=8 ) [ RunTime:0.000282s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001123s ]
+
+[ 2014-09-16T23:17:43+08:00 ] 127.0.0.1 /zj/index.php/Ad/Ad/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `sh_ad` [ RunTime:0.007316s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_ad` LIMIT 1   [ RunTime:0.000264s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT * FROM `sh_ad` LIMIT 0,15   [ RunTime:0.000347s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2014-09-16T23:19:10+08:00 ] 127.0.0.1 /zj/index.php/Ad/Ad/save/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `sh_ad` [ RunTime:0.006301s ]
+SQL: SELECT * FROM `sh_ad` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `sh_ad_pos` [ RunTime:0.005955s ]
+SQL: SELECT * FROM `sh_ad_pos`  [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `sh_ad_info` [ RunTime:0.005901s ]
+SQL: SELECT * FROM `sh_ad_info` WHERE ( ad_id=6 )  [ RunTime:0.000519s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2014-09-16T23:19:16+08:00 ] 127.0.0.1 /zj/index.php/Ad/Ad/save/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `sh_ad` [ RunTime:0.006782s ]
+NOTIC: [8] Undefined index: ad_type F:\wamp\www\zj\Application\Ad\Model\AdModel.class.php 第 87 行.
+SQL: UPDATE `sh_ad` SET `is_on`='否' WHERE ( pos_id=1 AND id <> 6 ) [ RunTime:0.000462s ]
+NOTIC: [8] Undefined index: ad_type F:\wamp\www\zj\Application\Ad\Model\AdModel.class.php 第 113 行.
+SQL: UPDATE `sh_ad` SET `ad_type`='动画',`pos_id`=1,`ad_name`='图片',`is_on`='是',`link`='' WHERE ( `id` = 6 ) [ RunTime:0.000336s ]
+NOTIC: [8] Undefined index: cartoon_img F:\wamp\www\zj\Application\Ad\Model\AdModel.class.php 第 116 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\Application\Ad\Model\AdModel.class.php 第 78 行.
+SQL: SHOW COLUMNS FROM `sh_ad_info` [ RunTime:0.006231s ]
+SQL: UPDATE `sh_ad_info` SET `link`='http://www.baidu.com' WHERE ( id=10 ) [ RunTime:0.000428s ]
+SQL: UPDATE `sh_ad_info` SET `link`='http://www.itcast.cn' WHERE ( id=9 ) [ RunTime:0.000354s ]
+SQL: UPDATE `sh_ad_info` SET `link`='http://www.itcast.cn' WHERE ( id=8 ) [ RunTime:0.000330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001572s ]
+
+[ 2014-09-16T23:19:17+08:00 ] 127.0.0.1 /zj/index.php/Ad/Ad/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+SQL: SHOW COLUMNS FROM `sh_ad` [ RunTime:0.006064s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_ad` LIMIT 1   [ RunTime:0.000398s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp\www\zj\ThinkPHP\Library\Think\Db.class.php 第 429 行.
+SQL: SELECT * FROM `sh_ad` LIMIT 0,15   [ RunTime:0.000492s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
